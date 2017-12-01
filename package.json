@@ -4,8 +4,12 @@
   "description": "",
   "main": "record.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha specs"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "mocha": "^4.0.1"
+  }
 }
