@@ -12,4 +12,16 @@ describe("Record", function() {
     assert.strictEqual(record.getArtist(), "Run The Jewels");
   });
 
+  it("should have a title", function() {
+    assert.strictEqual(record.getTitle(), "Run The Jewels 3");
+  });
+
+  it("should have a genre", function() {
+    assert.strictEqual(record.getGenre(), "rap");
+  });
+
+  it("should have a price", function() {
+    assert.strictEqual(record.getPrice(), 8.99);
+  });
+
 });

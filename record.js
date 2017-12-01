@@ -9,6 +9,18 @@ Record.prototype = {
 
   getArtist: function() {
     return this.artist;
+  },
+
+  getTitle: function() {
+    return this.title;
+  },
+
+  getGenre: function() {
+    return this.genre;
+  },
+
+  getPrice: function() {
+    return this.price;
   }
 
 };
