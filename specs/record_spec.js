@@ -24,4 +24,9 @@ describe("Record", function() {
     assert.strictEqual(record.getPrice(), 8.99);
   });
 
+  it("should print out properties of a given record as a string", function() {
+    var expected = "The record is Run The Jewels 3 by Run The Jewels. It is a rap album and ccurrently costs £8.99"
+    assert.strictEqual(record.printRecord(), expected);
+  });
+
 });
