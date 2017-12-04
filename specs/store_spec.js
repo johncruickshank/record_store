@@ -56,8 +56,6 @@ describe("Store", function() {
   it("should be able to report the financial situation of the store, showing the balance and value of inventory", function() {
     store.addRecord(record1);
     store.addRecord(record2);
-    var stock = store.getInventoryValue();
-    var storeBalance = store.getBalance();
     assert.strictEqual(store.getFinancialStatus(), "Store balance: £0, stock value: £18.98");
   });
 
